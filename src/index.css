@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.counter{
+  display: flex;
+}
+.card--container{
+  display: flex;
+}
+.App{
+  display: flex;
+}
+.cards--container{
+  display: flex;
+}
+.card{
+  /* display: flex; */
+  width:275px;
+  font-size: 14px;
+  position: relative;
+}
+.card--badge{
+  position: absolute;
+  top:6px;
+  left:6px;
+  background-color: white;
+  padding: 2px 3px;
+  border-radius:2px;
+  font-weight: bold;
+}
+.card-image{
+  width:100%;
+  border-radius: 10px;
+}
+.star-stats{
+  display: flex;
+  align-items: center;
+}
+.star-stats img{
+  width:19px;
+}
+.meme--container{
+  padding: 36px;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap:17px;
+}
+.form--input{
+  text-indent: 5px;
+}
+.form--button{
+  grid-column: 1 / -1;
+  background-color: rgb(64, 3, 3);
+  color:white;
+  border:none;
+  cursor: pointer;
+}
